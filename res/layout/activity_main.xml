@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/id_drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/rl_alltop"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/blue" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/moreicon"
+                    android:onClick="OpenRightMenu" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/menuicon"
+                    android:onClick="Openleft" />
+            </RelativeLayout>
+
+         
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_tab_category"
+                      android:layout_below="@id/rl_alltop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+          
+
+            <com.imjx.nanerbense.view.CustomTabbarView
+                android:id="@+id/custom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <fragment
+            android:id="@+id/id_left_menu"
+            android:name="com.imjx.nanerbense.fragment.MenuLeftFragment"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:tag="LEFT" />
+
+        <fragment
+            android:id="@+id/id_right_menu"
+            android:name="com.imjx.nanerbense.fragment.MenuRightFragment"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:tag="RIGHT" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

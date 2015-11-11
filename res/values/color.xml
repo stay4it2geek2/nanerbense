@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#DE0000</color>
+    <color name="lightorange">#FE7D05</color>
+    <color name="darkorange">#F24920</color>
+    <color name="loginred">#D80607</color>
+    <color name="darkred">#C20000</color>
+    <color name="blue">#3AC4FB</color>
+    <color name="red_light">#FF3E3F</color>
+    <color name="middlegray">#E3E3E3</color>
+    <color name="white">#fff</color>
+    <color name="orange_white">#FED1AA</color>
+    <color name="gray">#F2F2F2</color>
+    <color name="green">#88D34D</color>
+    <color name="grayu">#F7F7F7</color>
+    <color name="gray_register">#CDCDCD</color>
+    <color name="darkgray">#9E9E9E</color>
+    <color name="darkgray_editext">#5B5B5B</color>
+    <color name="black">#000</color>
+    <color name="othergray">#D7D7D7</color>
+    <color name="light_black">#4E4E4E</color>
+    <color name="light_gray">#5C5C5C</color>
+    <color name="transparent">#50000000</color>
+    <color name="yellow">#FDB230</color>
+    <color name="lightpink">#FFF6F7</color>
+    <color name="darkpink">#FF8685</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <!-- viewpager -->
+    <color name="title">#ff333333</color>
+    <color name="frame">#61a716</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="bgcol1">#E4EEFA</color>
+
+</resources>

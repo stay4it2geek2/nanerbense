@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+
+    <RadioGroup
+        android:id="@+id/tabgroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/findBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:checked="true"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/secertBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/goodBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/buyBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/moreBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+</LinearLayout>
